@@ -1,6 +1,6 @@
 {
-  "name": "findCurrentDirectory",
-  "version": "1.0.0",
+  "name": "@weweweok/find-current-directory",
+  "version": "0.1.0",
   "exports": "./mod.ts",
   "tasks": {
     "dev": "deno test --watch mod.ts"

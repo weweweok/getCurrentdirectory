@@ -3,7 +3,7 @@ import * as fs from "node:fs";
 /*
  * find Directory when you call this function
  */
-export const findCurrentDirectory = () => {
+export const findCurrentDirectory = (): string | undefined => {
   const err = new Error();
   const stack = err.stack?.split("\n") || [];
 
